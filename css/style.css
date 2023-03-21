@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background-color: rgba(30, 30, 142, 0.391);
+}
+h1{
+  font-family: 'bungee spice';
+  font-weight: 700;
+}
+form label {
+  font-family: 'bungee spice';
+  font-weight: 150;
+}
+span {
+  font-family: 'bungee spice';
+}
+h3{
+  font-family: 'bungee spice';
+}
